@@ -31,24 +31,26 @@ namespace wfaQuestao2
         {
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tbSaude4 = new System.Windows.Forms.TextBox();
+            this.tbSaude3 = new System.Windows.Forms.TextBox();
+            this.tbSaude2 = new System.Windows.Forms.TextBox();
+            this.tbSaude1 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tbAlimentacao4 = new System.Windows.Forms.TextBox();
+            this.tbAlimentacao3 = new System.Windows.Forms.TextBox();
+            this.tbAlimentacao2 = new System.Windows.Forms.TextBox();
+            this.tbAlimentacao1 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.tbSaúde1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.btAlimentacao = new System.Windows.Forms.Button();
+            this.btSaude = new System.Windows.Forms.Button();
             this.tabControl2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -67,10 +69,11 @@ namespace wfaQuestao2
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.textBox8);
-            this.tabPage4.Controls.Add(this.textBox7);
-            this.tabPage4.Controls.Add(this.textBox6);
-            this.tabPage4.Controls.Add(this.textBox5);
+            this.tabPage4.Controls.Add(this.btSaude);
+            this.tabPage4.Controls.Add(this.tbSaude4);
+            this.tabPage4.Controls.Add(this.tbSaude3);
+            this.tabPage4.Controls.Add(this.tbSaude2);
+            this.tabPage4.Controls.Add(this.tbSaude1);
             this.tabPage4.Controls.Add(this.label13);
             this.tabPage4.Controls.Add(this.label12);
             this.tabPage4.Controls.Add(this.label11);
@@ -82,6 +85,34 @@ namespace wfaQuestao2
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "Saúde";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tbSaude4
+            // 
+            this.tbSaude4.Location = new System.Drawing.Point(313, 178);
+            this.tbSaude4.Name = "tbSaude4";
+            this.tbSaude4.Size = new System.Drawing.Size(100, 20);
+            this.tbSaude4.TabIndex = 8;
+            // 
+            // tbSaude3
+            // 
+            this.tbSaude3.Location = new System.Drawing.Point(313, 137);
+            this.tbSaude3.Name = "tbSaude3";
+            this.tbSaude3.Size = new System.Drawing.Size(100, 20);
+            this.tbSaude3.TabIndex = 7;
+            // 
+            // tbSaude2
+            // 
+            this.tbSaude2.Location = new System.Drawing.Point(313, 98);
+            this.tbSaude2.Name = "tbSaude2";
+            this.tbSaude2.Size = new System.Drawing.Size(100, 20);
+            this.tbSaude2.TabIndex = 6;
+            // 
+            // tbSaude1
+            // 
+            this.tbSaude1.Location = new System.Drawing.Point(313, 61);
+            this.tbSaude1.Name = "tbSaude1";
+            this.tbSaude1.Size = new System.Drawing.Size(100, 20);
+            this.tbSaude1.TabIndex = 5;
             // 
             // label13
             // 
@@ -125,10 +156,11 @@ namespace wfaQuestao2
             // 
             // tabPage5
             // 
-            this.tabPage5.Controls.Add(this.textBox4);
-            this.tabPage5.Controls.Add(this.textBox3);
-            this.tabPage5.Controls.Add(this.textBox2);
-            this.tabPage5.Controls.Add(this.tbSaúde1);
+            this.tabPage5.Controls.Add(this.btAlimentacao);
+            this.tabPage5.Controls.Add(this.tbAlimentacao4);
+            this.tabPage5.Controls.Add(this.tbAlimentacao3);
+            this.tabPage5.Controls.Add(this.tbAlimentacao2);
+            this.tabPage5.Controls.Add(this.tbAlimentacao1);
             this.tabPage5.Controls.Add(this.label10);
             this.tabPage5.Controls.Add(this.label14);
             this.tabPage5.Controls.Add(this.label15);
@@ -141,15 +173,33 @@ namespace wfaQuestao2
             this.tabPage5.Text = "Alimentação";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // tabPage6
+            // tbAlimentacao4
             // 
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(742, 445);
-            this.tabPage6.TabIndex = 2;
-            this.tabPage6.Text = "Relatório";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            this.tbAlimentacao4.Location = new System.Drawing.Point(232, 174);
+            this.tbAlimentacao4.Name = "tbAlimentacao4";
+            this.tbAlimentacao4.Size = new System.Drawing.Size(100, 20);
+            this.tbAlimentacao4.TabIndex = 12;
+            // 
+            // tbAlimentacao3
+            // 
+            this.tbAlimentacao3.Location = new System.Drawing.Point(232, 126);
+            this.tbAlimentacao3.Name = "tbAlimentacao3";
+            this.tbAlimentacao3.Size = new System.Drawing.Size(100, 20);
+            this.tbAlimentacao3.TabIndex = 11;
+            // 
+            // tbAlimentacao2
+            // 
+            this.tbAlimentacao2.Location = new System.Drawing.Point(232, 93);
+            this.tbAlimentacao2.Name = "tbAlimentacao2";
+            this.tbAlimentacao2.Size = new System.Drawing.Size(100, 20);
+            this.tbAlimentacao2.TabIndex = 10;
+            // 
+            // tbAlimentacao1
+            // 
+            this.tbAlimentacao1.Location = new System.Drawing.Point(232, 58);
+            this.tbAlimentacao1.Name = "tbAlimentacao1";
+            this.tbAlimentacao1.Size = new System.Drawing.Size(100, 20);
+            this.tbAlimentacao1.TabIndex = 9;
             // 
             // label10
             // 
@@ -192,61 +242,33 @@ namespace wfaQuestao2
             this.label16.TabIndex = 5;
             this.label16.Text = "CPF";
             // 
-            // tbSaúde1
+            // tabPage6
             // 
-            this.tbSaúde1.Location = new System.Drawing.Point(232, 58);
-            this.tbSaúde1.Name = "tbSaúde1";
-            this.tbSaúde1.Size = new System.Drawing.Size(100, 20);
-            this.tbSaúde1.TabIndex = 9;
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(742, 445);
+            this.tabPage6.TabIndex = 2;
+            this.tabPage6.Text = "Relatório";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // btAlimentacao
             // 
-            this.textBox2.Location = new System.Drawing.Point(232, 93);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 10;
+            this.btAlimentacao.Location = new System.Drawing.Point(519, 357);
+            this.btAlimentacao.Name = "btAlimentacao";
+            this.btAlimentacao.Size = new System.Drawing.Size(75, 23);
+            this.btAlimentacao.TabIndex = 13;
+            this.btAlimentacao.Text = "button1";
+            this.btAlimentacao.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // btSaude
             // 
-            this.textBox3.Location = new System.Drawing.Point(232, 126);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 11;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(238, 173);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 12;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(313, 61);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 5;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(313, 98);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 6;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(313, 137);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 7;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(313, 178);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 8;
+            this.btSaude.Location = new System.Drawing.Point(355, 318);
+            this.btSaude.Name = "btSaude";
+            this.btSaude.Size = new System.Drawing.Size(75, 23);
+            this.btSaude.TabIndex = 14;
+            this.btSaude.Text = "button2";
+            this.btSaude.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -276,16 +298,6 @@ namespace wfaQuestao2
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button btSaude;
-        private System.Windows.Forms.TextBox tbSaude2;
-        private System.Windows.Forms.TextBox tbSaude3;
-        private System.Windows.Forms.TextBox tbSaude4;
-        private System.Windows.Forms.TextBox tbSaude1;
-        private System.Windows.Forms.Button btAlimentacao;
-        private System.Windows.Forms.TextBox tbAlimentacao2;
-        private System.Windows.Forms.TextBox tbAlimentacao3;
-        private System.Windows.Forms.TextBox tbAlimentacao4;
-        private System.Windows.Forms.TextBox tbAlimentacao1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.TabPage tabPage4;
@@ -295,18 +307,20 @@ namespace wfaQuestao2
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox tbSaúde1;
+        private System.Windows.Forms.TextBox tbSaude4;
+        private System.Windows.Forms.TextBox tbSaude3;
+        private System.Windows.Forms.TextBox tbSaude2;
+        private System.Windows.Forms.TextBox tbSaude1;
+        private System.Windows.Forms.TextBox tbAlimentacao4;
+        private System.Windows.Forms.TextBox tbAlimentacao3;
+        private System.Windows.Forms.TextBox tbAlimentacao2;
+        private System.Windows.Forms.TextBox tbAlimentacao1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button btSaude;
+        private System.Windows.Forms.Button btAlimentacao;
     }
 }
 
